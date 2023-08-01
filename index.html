@@ -1,13 +1,19 @@
 <!DOCTYPE html> <!-- Tipo de documento -->
 <html lang="en"> <!-- Atributo lang, su valor indica el idioma del sitio -->
     <head>
-        <meta charset="UTF-8" > <!-- Indica al navegador el set de caracteres que debe utilizar para codificar la información -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidad de navegadores -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuraciónh para optimizar en dispositivos móviles, pero no resuelve el responsive -->
+        <!-- Indica al navegador el set de caracteres que debe utilizar para codificar la información -->
+        <meta charset="UTF-8" > 
+        <!-- Compatibilidad de navegadores -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <!-- Configuraciónh para optimizar en dispositivos móviles, pero no resuelve el responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Provee una descripción del contenido del sitio. Útil para posicionamiento SEO -->
         <meta name="description" content="Aquí encontrarás info de la CH30 de Generation México">
 
-        <title> Conoce a la CH30 de Generation México </title>
-        <link rel="icon" href="./assets/img/microphone.png"> <!-- Colocamos un favicon -->
+        <title> Conoce a la CH30 </title>
+
+        <!-- Colocamos un favicon -->
+        <link rel="icon" href="./assets/img/microphone.png"> 
        <!--  Utilizamos una fuente personalizada de Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +23,33 @@
 
     </head>
     <body> <!-- Aquí comienza la información del sitio -->
+        <header>
+            <h1> ¿Quién es la CH30? </h1> 
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"> Inicio </a>
+                </li>
+                <li>
+                    <a href="./assets/pages/selectores.html"> Selectores </a>
+                </li>
+                <li>
+                    <a href="./assets/pages/nosotros.html"> Nosotros </a>
+                </li>
+                <li>
+                    <a href="./assets/pages/contacto.html"> Contáctanos </a>
+                </li>
+            </ul>
+        </nav>
 
-        <h1> ¿Quién es la CH30? </h1>
-            <p> Lorem ipsum <strong> dolor </strong> sit amet consectetur adipisicing elit. Neque culpa quidem eos quia molestiae soluta minus, temporibus laborum quas libero quos voluptas dolor inventore consectetur facilis tempore ipsam explicabo itaque. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi animi iure libero facere neque minus dolore doloremque voluptas, deserunt, unde mollitia vitae nemo odit non suscipit voluptatum ipsum beatae quas?
-            Recusandae consequuntur incidunt esse blanditiis eligendi vel voluptatibus, commodi dolorum iure doloribus dolore error odio vitae harum similique vero quisquam maxime earum quae natus! Illum eos recusandae vero deserunt deleniti.
-            Maxime laudantium accusamus eaque corporis autem? Alias ad necessitatibus pariatur, qui dolor natus, beatae laudantium rerum unde odit voluptatum esse sint? Eos iste, facere amet eius libero quas iusto non.
-            Dicta mollitia minima laudantium excepturi, sint ad libero quam nulla ipsum! Magnam officia doloremque nostrum, quas hic culpa deleniti eum excepturi dolore consequuntur, repudiandae quae cupiditate ipsum neque suscipit error!
-            Atque accusamus blanditiis reprehenderit porro exercitationem odit iure temporibus magni natus. Obcaecati quae rem iste! Rem possimus, officiis ullam repellat voluptatum quaerat? Iusto animi corporis quod assumenda ducimus, maiores autem.</p>
+            <p> La cohorte  30  de Generation México es un grupo diverso de personas, con gustos varios, pero una meta común: <strong>la empleabilidad</strong> </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel quos perspiciatis obcaecati corrupti quae itaque repellat. Provident autem, corporis deleniti, distinctio possimus harum eveniet aliquam repellendus excepturi fugit est?
+            Delectus, neque possimus dolorem nulla velit, in minus consequatur tenetur voluptates vero asperiores magnam illo autem recusandae iure! Reiciendis ducimus harum at nisi itaque perspiciatis autem! Magni perferendis dolorem consequuntur.
+            Ipsa est repellat veniam beatae distinctio iste culpa, quaerat iure molestiae laudantium odio, atque, nobis tenetur harum reiciendis placeat? Magnam consequatur dignissimos ratione fugit nulla suscipit quae earum quas alias?</p>
+
+                <p>A continuación encontrarás datos curiosos de participantes de la CH30: </p>
+            
 
         <h2> Anneth Tinajero </h2>
             <div> 
@@ -33,14 +58,16 @@
                 <p> Dulce favorito: Dragonzitos </p>
             </div>
 
-        <h3> Aline Pool </h3>
-            <ol>
+        <h2> Aline Pool </h2>
+            <ol class="listas-de-favoritos">
                 <li> Miénteme - Camilo Séptimo </li>
                 <li> Óleos - Camilo Séptimo </li>
                 <li> No confíes en mí - Camilo Séptimo </li>
             </ol>    
+            
+            <p> Las frutas favoritas de Aline son: </p>
 
-            <ul>
+            <ul class="listas-de-favoritos">
                 <li> Mangos </li>
                 <li> Granada </li>
                 <li> Piña </li>
@@ -55,7 +82,8 @@
                     </ul>
             </ul>
 
-        <h4> David Olea </h4>
+        <h2> David Olea </h2>
+        <div>
             <dl>
                 <dt> Mole con pollo </dt>
                 <dd> Salsa especiada con diferentes tipos de chiles, chocolate, pimienta, sal y azúcar con una pieza de pollo </dd>
@@ -64,10 +92,11 @@
                 <dd> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptas, reiciendis cupiditate, eos harum ullam consequuntur nam ex necessitatibus accusantium, sint exercitationem? Ipsa natus qui reprehenderit distinctio harum, perspiciatis id!</dd>
 
             </dl>
-
-        <h4> Chiquitín </h4>
-        <p> Top 3 de vitaminas que ama: </p>
-            <ol>
+        </div>
+        <h2> Chiquitín </h2>
+        
+        <p> Conoce el top 3 de vitaminas que ama: </p>
+            <ol id="lista-chikistrikis">
                 <li> Vitamina E </li>
                 <li> GyncoBiloba </li>
                 <li> Omega 3,6 y 9 </li>
@@ -76,8 +105,73 @@
         <img src="./assets/img/Chikis.jpg" alt="Perrito pequeño parado en dos patas recargado en un escritorio frente al teclado" width="200px" height="200px">
         
 
-        <h6> Artistas y bandas favoritas de la CH30 </h6>
+        <h3> Artistas y bandas favoritas de la CH30 </h3>
+           <a href="https://es.wikipedia.org/wiki/Peso_Pluma_(cantante)#Influencias_y_controversias" target="_blank"> Aquí puedes ver la info del cantante fav de Leo Hernández </a>
+           <br>
+           <a href="./assets/pages/contacto.html" target="_blank"> Contáctanos </a>
+           
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Tamales solos </th>
+                        <th> Tortas </th>
+                        <th> Atole </th>
+                        <th> Tamales especiales normales </th>
+                        <th> Tamales especiales oaxaqueños </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> $15.00 MXN </td>
+                        <td> $18.00 MXN </td>
+                        <td> $15.00 MXN </td>
+                        <td> $20.00 MXN </td>
+                        <td> $30.00 MXN </td>
+                    </tr>
+                </tbody>
+            </table>
 
+            <table>
+                <thead>
+                    <tr>
+                        <!-- Colspan nos permite "fusionar" celdas consceutivas en una misma fila -->
+                        <th colspan="7"> Promociones de la semana </th>
+                    </tr>
+                    <tr>
+                        <th> Lunes </th>
+                        <th> Martes </th>
+                        <th> Miércoles </th>
+                        <th> Jueves </th>
+                        <th> Viernes </th>
+                        <th> Sábado </th>
+                        <th> Domingo </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Atole chico </td>
+                        <td> Torta de oaxaqueño de mole </td>
+                        <td> Litro de atole </td>
+                        <td> 2x1 en tamales de dulce </td>
+                        <td> Tamales especiales de gansito </td>
+                        <td> Tamales especiales con pieza de pollo </td>
+                        <td> Tamales especiales veganos </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"> $15.00 MXN </td>
+                        <td> $27.00 MXN </td>
+                        <td> $14.00 MXN </td>
+                        <td> $18.00 MXN </td>
+                        <td> $25.00 MXN </td>
+                        <td> $20.00 MXN </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </section>
 
     </body>
 </html>
